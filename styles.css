@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#menu2 {
+	background-color: black;
+}
+.div3 {
+	background-color: white;
+	width: 100%;
+	padding: 60px 30px;
+}
+.footer{
+                
+                padding-bottom: 35px;
+            }
+            .foot_HR{
+                padding-top: 1px;
+            }
+@keyframes rotate {
+  /*  25%{
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+    */
+    50% {
+        transform: scale(0.5,0.5);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+#id1 {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.active {
+    border: 2px solid red;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.sec1 {
+    background: url('./img/0.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 570px;
+}
+#book-a-table {
+    background-color: #FAFAFA;
+    padding: 50px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 50px 0px;
+    float: left;
+    width: 100%;
+}
+.book-a-table p {
+	color: #9a9a9a;
+}
+.book-a-table textarea {
+    min-height: 200px;
+    max-width: 100%;
+}
+  .book-a-table h2{
+    color:red;
+  }
+  .book-a-table button{
+   background-color: red;
+  }
